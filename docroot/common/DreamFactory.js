@@ -133,7 +133,9 @@
         singleton : true,
         // extend    : 'Ext.Base',
 
-        serviceUrl : (window.location.host.indexOf('dreamfactory.com') !== -1) ? '/' : '/service/',
+        serviceUrl : (window.location.host.indexOf('dreamfactory.com') !== -1 ||
+            window.location.host === 'localhost') ? '/' : '/service/',
+
         init       : function () {
             console.log('init dream factory');
         },

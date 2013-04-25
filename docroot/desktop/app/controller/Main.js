@@ -82,7 +82,9 @@
         init : function() {
             var me = this;
 
-            var production = window.location.host.indexOf('dreamfactory.com') !== -1;
+            var production = window.location.host.indexOf('dreamfactory.com') !== -1 ||
+                window.location.host === 'localhost';
+
             ab.data = {
                 serviceUrl : production ? '/' : '/service/',
                 user       : {
