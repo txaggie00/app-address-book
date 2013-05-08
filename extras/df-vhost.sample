@@ -1,6 +1,8 @@
 <VirtualHost *:80>
 	ServerName df
 	ServerAdmin webmaster@localhost
+	
+	SSLProxyEngine On
 
     # NOTE: This should be path to docroot in your checked out repository
 	DocumentRoot /path/to/your/repository/DreamFactory/docroot/
