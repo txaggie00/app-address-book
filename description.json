@@ -1,0 +1,8 @@
+{
+	"api_name":"add",
+	"name":"Address Book",
+	"description":"A sample ExtJS/Sencha application for the DreamFactory Services Platform that runs on desktop and mobile.",
+	"is_active":1,
+	"url":"/index.html",
+	"is_url_external":0
+}
